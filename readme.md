@@ -66,6 +66,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ## Contact
 
-Created by [Your Name](https://linkedin.com/in/yourprofile).  
+Created by [Jahid Hasan](https://www.linkedin.com/in/developerjahidhasan/).  
 Feel free to connect or reach out for collaborations!
 
