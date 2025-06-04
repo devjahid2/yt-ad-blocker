@@ -20,7 +20,7 @@ const removeAdElements = () => {
   adSelectors.forEach(selector => {
     document.querySelectorAll(selector).forEach(el => {
       el.remove();
-      console.log(`[AdBlocker] Removed: ${selector}`);
+      console.log(`[AdBlocker] Removed a ad`);
     });
   });
 };

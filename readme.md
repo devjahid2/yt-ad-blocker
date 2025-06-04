@@ -1,71 +1,88 @@
-# Ad Blocker Toggle Extension
+# 🚫 Ad Blocker Toggle Extension
 
-A simple, lightweight browser extension that allows users to easily enable or disable ad blocking with a sleek animated toggle switch.
-
----
-
-## Features
-
-- **Clean and modern UI:** Smooth animated toggle switch with intuitive design.
-- **Quick toggle:** Instantly enable or disable ad blocking.
-- **Audio & Haptic feedback:** Subtle click sound and vibration on toggle (where supported).
-- **Lightweight and fast:** Minimal CSS and JS for optimal performance.
-- **Easy to customize:** Simple code structure for further enhancements.
+A simple yet powerful Chrome extension to **block ads from 50+ common ad networks**. Control it instantly with a **sleek animated toggle switch** — all without reloading your browser.
 
 ---
 
-## Demo
+## ✨ Features
+
+- ✅ **Real Ad Blocking** — Uses Chrome’s `declarativeNetRequest` API to block 50+ ad and tracker domains.
+- 🎛️ **Interactive Toggle UI** — Smooth toggle switch to turn blocking on or off instantly.
+- 💾 **State Persistence** — Saves toggle state in `chrome.storage.local`, even after browser restart.
+- 🔇 **Silent & Fast** — Lightweight and works in the background with no slowdown.
+- 📱 **Audio & Haptic Feedback** — Click sound + vibration (on supported devices).
+- 💻 **Fully Offline** — No external servers or dependencies required.
+- 🛠️ **Easily Customizable** — Add your own block rules or modify the UI.
+
+---
+
+## 📸 Demo
 
 ![Toggle Demo](https://user-images.githubusercontent.com/yourusername/demo-toggle.gif)
 
 ---
 
-## Installation
+## 🚀 Installation
 
-1. Clone or download this repository.
-2. Load the extension in your browser’s developer mode:
-   - For Chrome: Go to `chrome://extensions/`, enable **Developer mode**, click **Load unpacked**, and select this repo folder.
-   - For Firefox: Go to `about:debugging#/runtime/this-firefox`, click **Load Temporary Add-on**, and select the `manifest.json` file.
-
----
-
-## Usage
-
-- Click the toggle switch to enable or disable the ad blocker.
-- Hear a subtle click sound and feel vibration (on supported devices) as feedback.
-- Customize `popup.js` to integrate your ad blocking logic.
+1. **Clone** or [download this repo](https://github.com/yourusername/ad-blocker-toggle-extension).
+2. Open **Google Chrome** and navigate to:  
+   `chrome://extensions/`
+3. Enable **Developer Mode** (top right).
+4. Click **Load unpacked** and select the folder containing this extension.
 
 ---
 
-## Code Structure
+## 🧠 Usage
 
-- `popup.html` — Main UI markup.
-- `popup.js` — JavaScript controlling toggle behavior, feedback, and logic hooks.
-- `style.css` (or inline styles) — Styling and animations for the toggle.
+- Click the extension icon in the toolbar.
+- Use the toggle to enable/disable ad blocking.
+- Blocking status is saved and restored on next launch.
 
 ---
 
-## How to Contribute
+## 🗂️ File Structure
+
+| File           | Purpose                                  |
+|----------------|------------------------------------------|
+| `manifest.json`| Extension metadata and permissions       |
+| `rules.json`   | Blocking rules for 50+ ad domains        |
+| `popup.html`   | UI layout for toggle                     |
+| `style.css`    | Styling and animations                   |
+| `popup.js`     | JS logic for toggle and state handling   |
+
+---
+
+## 🔮 Ideas for Future Enhancements
+
+- [ ] Add domain whitelist support  
+- [ ] Show how many ads were blocked  
+- [ ] Dark mode for popup  
+- [ ] Sync toggle state with Chrome Sync
+
+---
+
+## 🙌 Contributing
 
 Contributions are welcome! Feel free to:
 
-- Improve UI/UX
-- Add new features like whitelist support or custom filters
-- Optimize performance
-- Fix bugs
+- Add new block rules
+- Improve animations or UI
+- Report bugs or request features
 
-Please submit a pull request or open an issue to discuss changes.
-
----
-
-## License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+Just fork the repo, create a branch, and open a pull request.
 
 ---
 
-## Contact
+## 📄 License
 
-Created by [Jahid Hasan](https://www.linkedin.com/in/developerjahidhasan/)
-Feel free to connect or reach out for collaborations!
+This project is licensed under the [MIT License](LICENSE).
 
+---
+
+## 👤 Author
+
+Created with 💡 by [Jahid Hasan](https://www.linkedin.com/in/developerjahidhasan/)
+
+---
+
+⭐️ If you found this helpful, please star the repo and share it!
